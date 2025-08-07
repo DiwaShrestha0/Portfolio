@@ -1,4 +1,18 @@
 h1{
-    color: blue;
+    color: rgb(1, 51, 128);
+    font-size: 20rem;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -15  0%);
+}
+.background-img {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateY(-20%);
 }
