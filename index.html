@@ -9,6 +9,11 @@
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+<!-- New Preloader -->
+<div id="preloader">
+  <div class="spinner"></div>
+</div>
+
     <header class="main-header">
         <nav class="navbar">
             <div class="logo">DIWA</div>
@@ -29,7 +34,7 @@
     <main>
         <section id="about" class="section about-section white-bg">
             <h2>About Me</h2>
-            <p>I'm a programmer and artist. I want to become a game developer as it utilizes both of my inerests. </p>
+            <p>I'm a programmer and artist. I want to become a game developer as it utilizes both of my interests. </p>
         </section>
 
         <section id="skills" class="section skills-section blue-bg">
@@ -73,11 +78,13 @@
         <section id="contact" class="section contact-section white-bg">
             <h2>Contact</h2>
             <form id="contactForm">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
                 <button type="submit" class="btn">Send</button>
             </form>
+
+
             <div class="social-links">
                 <a href="https://www.instagram.com/diwa_shrestha/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/diwa-shrestha-40995b302/" target="_blank"><i class="fab fa-linkedin"></i></a>
