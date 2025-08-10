@@ -45,7 +45,7 @@ body {
     position: absolute;
     font-family: 'Bowlby One', sans-serif;
     font-size: 15rem;
-    color: rgba(255, 255, 255, 0.854);
+    color: rgba(244, 231, 231, 0.854);
     z-index: 0;
 }
 .statue-image {
